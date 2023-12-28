@@ -1,0 +1,153 @@
+
+  
+  .coursecontentheading{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+   
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+
+  .courseoverview{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-top: 16px;
+    /* margin-left: 5px; */
+    
+  }
+  .contentmainContainer {
+    
+   margin: 35px 20px;
+     
+    border-radius: 10px;
+  }
+.contentcontain{
+ 
+  display: flex;
+  background-image: linear-gradient(to right,#f5ac82,#a11afe);
+  border: none;
+  border-radius: 15px;
+  padding-left: 57px;
+  
+  
+  
+}
+  
+  .contentBody {
+    margin-top: 20px;
+   border: none;
+   border-radius: 10px;
+   
+  }
+  #coursecontenttabs{
+    display: flex;
+    flex-direction: row;
+  }
+  .courseDesc{
+    
+  
+
+    border: 3px solid white;
+    border-radius: 7px;
+    
+    margin-top: 20px;
+    height: 400px; 
+   
+    
+  }
+  .desc{
+    width: 260px;
+    margin: 0 auto;
+  }
+  .desc>div{
+    padding: 6px;
+    color: white;
+
+  }
+  .desc :nth-child(3){
+    color:#f5ac82;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .courseimage>img{
+    width: 230px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 7px;
+    
+  }
+  .cartbutton{
+    width: 200px;
+    margin: 0 auto;
+    /* margin-left: 50px; */
+  }
+  .b1{
+    border: none;
+    border-radius: 10px;
+    background-color: #f5ac82;
+    
+    
+    padding: 10px 20px;
+  }
+  .b2{
+    border: none;
+    border-radius: 10px;
+    background-color: #f5ac82;
+    padding: 10px 12px;
+  
+    margin-left: 10px;
+  }
+  .b1:hover{
+    background-color: #a11afe;
+  }
+  
+  .b2:hover{
+    background-color: #a11afe;
+  }
+
+  .coursepoints>li{
+    margin: 10px 5px ;
+    
+  }
+  .coursepoints>li>i{
+    margin-right: 10px;
+    color: #212529;
+    margin-left: 10px;
+    
+  }
+  
+  .nav-item>a{
+    color: #212529;
+  }
+
+  .coursematerial{
+   padding: 12px 15px;
+   
+    /* width: 1200px; */
+   margin: 1px auto;
+  }
+  #coursecontentheading2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #a11afe;
+    margin: 0px 50px;
+   
+  }
+  #coursecontentheading3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #a11afe;
+    margin: 15px 50px;
+   
+  }
+  .coursematerial>p{
+    margin: 10px 30px;
+  }
+  .cmaterial{
+    margin: 10px auto;
+  }

@@ -1,0 +1,124 @@
+/* SignupLogin.css or your preferred CSS file */
+.signup {
+  
+    max-width: 500px;
+    height: 530px;
+    margin: 10px auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-image: linear-gradient(to right,#f5ac82,#a11afe);
+   
+    box-shadow: 0 0 10px #a11afe ;
+    
+  }
+  
+.login {
+  
+    max-width: 500px;
+    height: 420px;
+    margin: 10px auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-image: linear-gradient(to right,#f5ac82,#a11afe);
+    box-shadow: 0 0 10px #a11afe ;
+    
+  }
+  
+  .signheading {
+    font-size: 28px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0px;
+    background-image: none;
+    margin-left: 0px;
+    padding: 0%;
+    width: auto;
+    height: auto;
+    color: white;
+  }
+  .otpverify{
+    max-width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-image: linear-gradient(to right,#f5ac82,#a11afe);
+    box-shadow: 0 0 10px #a11afe ;
+  }
+  .otpheading{
+    font-size: 28px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0px;
+    background-image: none;
+    margin-left: 0px;
+    padding: 0%;
+    width: auto;
+    height: auto;
+    color: white;
+
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    color: black;
+  }
+  
+  
+  .button1{
+    padding: 10px 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f5ac82;
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+    outline: none;
+  }
+  .button2{
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 14px;
+    background-color: #f5ac82;
+    outline: none;
+    color: white;
+    font-weight: 600;
+  }
+  .endform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+  }
+
+.toast-success {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.toast-error {
+  background-color: #f44336;
+  color: #fff;
+}

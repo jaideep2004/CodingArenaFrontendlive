@@ -1,0 +1,315 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+}
+.logo > img {
+	height: 50px;
+	margin-left: 40px;
+}
+
+.logoname {
+	margin-left: 50px;
+	font-weight: 700;
+	color: #4a0777;
+}
+.logo,
+.logoname {
+	cursor: pointer;
+}
+
+header {
+	background-image: linear-gradient(to right, #f5ac82, #a11afe);
+	color: #fff;
+	padding: 15px 0;
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
+}
+
+nav {
+	flex: 1;
+}
+
+ul.menu {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+li.menu-item {
+	margin-right: 20px;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: 600;
+	transition: 0.4s;
+}
+.menu-item > a {
+	padding: 10px;
+}
+
+li.menu-item:hover {
+	background-color: #f5ac82;
+	border: none;
+	border-radius: 6px;
+}
+
+div.buttons {
+	display: flex;
+	gap: 10px;
+	margin-right: 20px;
+	font-weight: 600;
+}
+
+button.button {
+	background-color: #f5ac82;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+
+button.button:hover {
+	background-color: #a11afe;
+}
+
+.headerprofile {
+	height: 40px;
+	width: 40px;
+	border: 1px solid #f5ac82;
+	border-radius: 20px;
+}
+.cart-counter {
+	position: absolute;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 2px 6px;
+	top: 25px;
+	color: black;
+	background-color: white;
+}
+.mobilemenu {
+	display: none;
+}
+#mobilemenuicon {
+	display: none;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 768px) {
+	body {
+		overflow-x: hidden;
+		margin: 0;
+		padding: 0;
+	}
+	/* main page */
+	.logo > img {
+		height: 40px;
+	}
+	.logo > img {
+		margin-left: 30px;
+	}
+	.logoname {
+		margin-left: 50px;
+	}
+
+	.menu-item {
+		display: none;
+	}
+	.button {
+		display: none;
+	}
+
+	.logo {
+		margin-top: 20px;
+		margin-left: 10px;
+	}
+	#mobilemenuicon {
+		display: block;
+		margin-left: 170px;
+		margin-top: -10px;
+		cursor: pointer;
+		transition: 0.3s;
+	}
+	#mobilemenuicon:active {
+		color: #f5ac82;
+	}
+	.mobilemenuitems {
+		margin: 20px auto;
+	}
+	.mobilemenuitems > li {
+		padding: 10px;
+		text-align: center;
+	}
+	.mobilemenu {
+		font-size: 18px;
+		border: none;
+		border-radius: 5px;
+
+		width: 350px;
+		height: 370px;
+		padding: 10px;
+		background-color: #a11afe;
+		position: absolute;
+		top: 120px;
+		left: 10px;
+		/* right: 10px; */
+		display: block;
+		/* flex-direction: column; */
+		box-shadow: 0px 5px 5px #f5ac82;
+		transition: 1s all ease;
+		z-index: 1;
+	}
+
+	.mobilebuttons {
+		/* border: 1px solid white; */
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+
+		font-weight: 600;
+		justify-content: center;
+		text-align: center;
+	}
+	.mobbutton {
+		background-color: #f5ac82;
+		color: #fff;
+		border: none;
+		padding: 10px 20px;
+		font-size: 16px;
+		cursor: pointer;
+		border: none;
+		border-radius: 10px;
+	}
+	.cart-counter {
+		position: absolute;
+		border: 1px solid white;
+		border-radius: 10px;
+		padding: 2px 6px;
+		top: 170px;
+		color: black;
+		background-color: white;
+	}
+
+	.hero {
+		flex-direction: column;
+		width: fit-content;
+		height: fit-content;
+	}
+
+	.hero-image {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.hero-image > img {
+		width: 500px;
+		height: 100px;
+	}
+	.services {
+		flex-direction: column;
+	}
+	.service {
+		margin-top: 10px;
+	}
+	.featured {
+		margin: 1px auto;
+		width: 400px;
+		height: 500px;
+	}
+
+	.headerprofile {
+		margin: 0 auto;
+	}
+	/* admin */
+	#createcoursemobhead {
+		width: 200px;
+	}
+
+	.mobilecourseinput > input {
+		width: 220px;
+	}
+	.mobilecourseinput > textarea {
+		width: 220px;
+	}
+	.mobilecourseinput > select {
+		width: 220px;
+	}
+	#coursecard {
+		right: 20px;
+	}
+
+	/* course content */
+	.contentcontain {
+		flex-direction: column;
+	}
+
+	#coursecontenttabs {
+		display: flex;
+		flex-direction: column;
+		margin-top: 20px;
+	}
+	.courseDesc {
+		width: 250px;
+		height: 400px;
+		margin-left: -20px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	#testTabs {
+		width: 400px;
+	}
+/* cart */
+
+	#cartmobitem{
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+
+	#cartcontain {
+		display: flex;
+		flex-direction: column;
+	}
+	#orderitems {
+		margin-left: -20px;
+		width: 200px;
+	}
+	#shipmob{
+		margin-top: 15px ;
+		margin-left: 15px;
+	}
+	#mobprice{
+		
+		margin-left: 25px;
+	}
+	
+	.sidebaropt2 {
+		display: flex;
+		flex-direction: column;
+	}
+	#profileopt {
+		margin-top: 14px;
+	}
+	.navsidebaropt2 {
+		width: 70px;
+		padding: 10px 0px;
+	}
+	#adminmobcard{
+		right: 25px;
+	}
+#editprofile{
+	margin-left: -19px;
+}
+
+
+
+}

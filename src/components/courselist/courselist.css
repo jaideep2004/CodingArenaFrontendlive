@@ -1,0 +1,43 @@
+#coursecard{
+    height: 430px;
+    width: 295px;
+   margin: 15px 25px;
+   
+    border-radius: 10px;
+}
+#student{
+   font-weight: 600;
+}
+#rating{
+    font-weight: 600;
+}
+
+#courseimg>img{
+    width: 280px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px auto;
+}
+#pricediv{
+    position: absolute;
+    bottom: 5px;
+}
+
+#pricediv :nth-child(1){
+   margin-left: 5px;
+   font-size: 15px;
+
+}
+#pricediv  :nth-child(2){
+    color: #a11afe;
+    font-weight: 600;
+   
+    margin-left: 80px;
+    
+}
+
+#coursetitle{
+    font-size: 18px;
+    font-weight: 700;
+}
+

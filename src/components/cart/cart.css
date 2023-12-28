@@ -1,0 +1,18 @@
+.checkoutbtn{
+    background-color: #f5ac82;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+#cartsection{
+    margin-left: 40px;
+    margin-right: 25px;
+    /* width: 650px; */
+}
+#cartmobitem{
+    align-items: center;
+}

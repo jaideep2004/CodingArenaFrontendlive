@@ -1,0 +1,143 @@
+
+
+.mycoursehead{
+    color: #f5ac82;
+    font-weight: 700;
+    
+    margin-top: 35px;
+    /* margin-left: 400px; */
+    font-size: 32px;
+}
+
+.usernamediv{
+    color: #f5ac82;
+    font-size: 19px;
+    font-weight: 600;
+    width: 150px;
+    margin: 6px auto;
+    
+}
+#welcomemsg{
+    color: #a11afe;
+}
+#editprofile{
+    margin-top: 35px;
+    
+}
+.profilepic{
+    width: 120px;
+    height: 120px;
+   margin: 5px auto;
+  
+}
+.studybtn{
+    /* position: absolute; */
+    background-color: #f5ac82;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    /* bottom: 10px;
+  left: 110px; */
+}
+.admincoursebtn{
+    
+   
+    text-align: center;
+}
+#wishitem{
+    background-color: #f5ac82;
+    border: none;
+    border-radius: 10px;
+    padding: 1px 18px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.wishitemcontainer{
+    margin-top: 15px;
+    width: 850px;
+}
+.wishitemcontainer>ul>p{
+    font-size: 22px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.editidform{
+   margin-left: 30px;
+   margin-top: 35px;
+}
+
+#sidebar2{
+    width: 240px;
+    height: 110vh;
+    background-image: linear-gradient(to right,#f5ac82,#a11afe);
+    margin-top: 20px;
+    margin-left: 15px;
+padding-top: 20px;
+    border: none;
+    border-radius: 15px;
+
+}
+.form-control{
+    width: 100vh;
+}
+.form-select{
+    width: 100vh;
+}
+.navsidebaropt2{
+    margin: 20px 6px;
+    
+    transition: 0.4s;
+    border: none;
+    border-radius: 8px;
+    
+}
+.navsidebaropt2>a>i{
+    margin-right: 15px;
+}
+
+
+.sidebaropt2{
+    display: flex;
+   align-items: center;
+  padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+   
+   
+}
+.navsidebaropt2:hover{
+    
+    background-color: #f5ac82;
+
+}
+
+.createcoursehead{
+    color: #f5ac82;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: 32px;
+}
+.createcourselabel{
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color:#a11afe
+}
+.coursebtn{
+    background-color: #f5ac82;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
