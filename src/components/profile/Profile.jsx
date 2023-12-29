@@ -30,7 +30,7 @@ function Profile() {
 
 	const [content, setContent] = useState("editprofile"); // Default content is the dashboard
 
-	// Function to switch content based on sidebar link click
+	
 	const switchContent = (newContent) => {
 		setContent(newContent);
 	};

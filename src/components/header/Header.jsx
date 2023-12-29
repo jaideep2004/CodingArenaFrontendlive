@@ -58,7 +58,7 @@ function Header() {
 		<header className='shadow-sm'>
 			<Link to='/'>
 				<div className='logo' onClick={handleLinkClick}>
-					<img src='./images/logo3.png' alt='' / >
+					<img src='./images/logo3.png' alt='' />
 					<div className='logoname'>CODING ARENA</div>
 				</div>
 			</Link>
@@ -98,19 +98,17 @@ function Header() {
 								<>
 									<Link to='profile'>
 										<img
-											
 											className='headerprofile '
 											src='./images/profile.webp'
 											alt='Profile'
 											onClick={handleLinkClick}
-											  
 										/>
 									</Link>
 									<div onClick={handleLinkClick}>
-									<button onClick={handleLogout} className='mobbutton'
-									>
-										Logout
-									</button></div>
+										<button onClick={handleLogout} className='mobbutton'>
+											Logout
+										</button>
+									</div>
 								</>
 							) : (
 								<>

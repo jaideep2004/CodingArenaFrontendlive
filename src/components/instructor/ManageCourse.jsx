@@ -13,7 +13,7 @@ export default function ManageCourse() {
 	useEffect(() => {
 		// Fetch available courses from the server
 		axios
-			.get("http://localhost:3001/allcourses")
+			.get("https://codingarenabackend-4g1r.onrender.com/allcourses")
 			.then((response) => {
 				setCourses(response.data);
 			})
@@ -25,7 +25,7 @@ export default function ManageCourse() {
 	const removeFromList = async (title) => {
 		try {
 			// Make an API request to remove the course from the backend
-			await axios.delete(`http://localhost:3001/allcourses/remove/${title}`);
+			await axios.delete(`https://codingarenabackend-4g1r.onrender.com/allcourses/remove/${title}`);
 			toast.success("Course removed ");
 
 			setCourses((prevList) => {

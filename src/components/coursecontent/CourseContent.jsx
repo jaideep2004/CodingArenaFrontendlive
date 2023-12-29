@@ -18,7 +18,7 @@ export default function CourseContent({ course }) {
 	useEffect(() => {
 		// Fetch available courses from the server
 		axios
-			.get("http://localhost:3001/allcourses")
+			.get("https://codingarenabackend-4g1r.onrender.com/allcourses")
 			.then((response) => {
 				setCourses(response.data);
 			})
@@ -31,7 +31,7 @@ export default function CourseContent({ course }) {
 	const addToCart = async () => {
 		try {
 			// Send an API request to add the selected course to the cart
-			const response = await axios.post("http://localhost:3001/cart/add", {
+			const response = await axios.post("https://codingarenabackend-4g1r.onrender.com/cart/add", {
 				courseTitle: courseData.title,
 			});
 
@@ -49,7 +49,7 @@ export default function CourseContent({ course }) {
 	const addToWishlist = async () => {
 		try {
 			// Send an API request to add the selected course to the cart
-			const response = await axios.post("http://localhost:3001/wishlist/add", {
+			const response = await axios.post("https://codingarenabackend-4g1r.onrender.com/wishlist/add", {
 				courseTitle: courseData.title,
 			});
 
@@ -228,7 +228,7 @@ export default function CourseContent({ course }) {
 
 					<div className='courseDesc'>
 						<div className='courseimage'>
-						<img src={`http://localhost:3001/uploads/${courseData.image}`} />
+						<img src={`https://codingarenabackend-4g1r.onrender.com/uploads/${courseData.image}`} />
 							
 						</div>
 						<div className='desc'>

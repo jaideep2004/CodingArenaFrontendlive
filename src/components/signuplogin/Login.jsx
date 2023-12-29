@@ -38,7 +38,7 @@ export default function Login() {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post("http://localhost:3001/login", formData);
+      const response = await axios.post("https://codingarenabackend-4g1r.onrender.com/login", formData);
       const { success, token, admin, error,user } = response.data;
   
       if (success) {

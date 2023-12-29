@@ -43,7 +43,7 @@ export default function CourseMaterial({
 							<object
 								id='mobilevideo'
 								className='cmaterial'
-								data={`http://localhost:3001/uploads/${courseData.pdf}`} // Specify the URL to the PDF here
+								data={`https://codingarenabackend-4g1r.onrender.com/uploads/${courseData.pdf}`} // Specify the URL to the PDF here
 								type='application/pdf' // MIME type for PDF
 								width='65%'
 								height='300'
@@ -52,7 +52,7 @@ export default function CourseMaterial({
 							<video
 								id='mobilevideo'
 								className='cmaterial'
-								src={`http://localhost:3001/uploads/${courseData.video}`}
+								src={`https://codingarenabackend-4g1r.onrender.com/uploads/${courseData.video}`}
 								width='500'
 								height='300'
 								controls></video>

@@ -9,7 +9,7 @@ export default function Wishlist() {
 	useEffect(() => {
 		// Fetch the list of courses in the cart from your API
 		axios
-			.get("http://localhost:3001/wishlist")
+			.get("https://codingarenabackend-4g1r.onrender.com/wishlist")
 			.then((response) => {
 				setWishlist(response.data);
 			})
@@ -22,7 +22,7 @@ export default function Wishlist() {
 		try {
 			// Make an API request to remove the course from the backend
 			await axios.delete(
-				`http://localhost:3001/wishlist/remove/${courseTitle}`
+				`https://codingarenabackend-4g1r.onrender.com/wishlist/remove/${courseTitle}`
 			);
 			toast.success("Course removed from wishlist ");
 

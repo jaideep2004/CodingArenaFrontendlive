@@ -48,7 +48,7 @@ function EditProfile() {
 		// Send a PUT request to update the user's information
 		axios
 			.put(
-				`http://localhost:3001/users/updateprofile/${user.email}`,
+				`https://codingarenabackend-4g1r.onrender.com/users/updateprofile/${user.email}`,
 				updatedUserData
 			)
 			.then((response) => {

@@ -94,7 +94,7 @@ const [videoPreview, setVideoPreview] = useState(null);
 
 		try {
 			axios
-				.post("http://localhost:3001/upload", formData, { headers })
+				.post("https://codingarenabackend-4g1r.onrender.com/upload", formData, { headers })
 				.then((response) => {
 					console.log("course created");
 					showMessage("Course Created");

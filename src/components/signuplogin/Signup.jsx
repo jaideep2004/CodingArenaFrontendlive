@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from "react";
-import axios from "axios"; // Import Axios for making HTTP requests
+import axios from "axios"; 
 import "./signup.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -41,7 +41,7 @@ function Signup() {
  
   const handleSignup = async () => {
     try {
-      const response = await axios.post("http://localhost:3001/signup", formData); // Updated endpoint
+      const response = await axios.post("https://codingarenabackend-4g1r.onrender.com/signup", formData); // Updated endpoint
       const { success, token, error } = response.data;
   
       if (success) {

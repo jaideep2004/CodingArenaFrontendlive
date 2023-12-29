@@ -14,7 +14,7 @@ export default function MyCourses() {
 
 		// Send a GET request to fetch the user's orders
 		axios
-			.get("http://localhost:3001/orders", { headers })
+			.get("https://codingarenabackend-4g1r.onrender.com/orders", { headers })
 			.then((response) => {
 				setOrders(response.data);
 			})

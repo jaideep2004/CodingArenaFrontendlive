@@ -19,7 +19,7 @@ function UpdateCourse({ onUpdate }) {
   useEffect(() => {
     // Fetch the list of courses from the server when the component mounts
     axios
-      .get("http://localhost:3001/allcourses")
+      .get("https://codingarenabackend-4g1r.onrender.com/allcourses")
       .then((response) => {
         setCourseList(response.data);
       })
@@ -36,7 +36,7 @@ function UpdateCourse({ onUpdate }) {
 
     // Fetch the selected course's details when a course is selected
     axios
-      .get(`http://localhost:3001/allcourses/${selectedCourseTitle}`)
+      .get(`https://codingarenabackend-4g1r.onrender.com/allcourses/${selectedCourseTitle}`)
       .then((response) => {
         // Set the course data in the form
         const course = response.data.data;
@@ -67,7 +67,7 @@ function UpdateCourse({ onUpdate }) {
     // Send an HTTP request to update the course based on the selected title
     axios
       .post(
-        `http://localhost:3001/allcourses/updatecourse/${selectedCourseTitle}`,
+        `https://codingarenabackend-4g1r.onrender.com/allcourses/updatecourse/${selectedCourseTitle}`,
         updatedCourse
       )
       .then((response) => {

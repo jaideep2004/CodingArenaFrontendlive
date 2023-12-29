@@ -12,7 +12,7 @@ export default function CartItem({ course, removeFromCart }) {
           <div id="cartmobitem" className='flex w-full space-x-2 sm:space-x-4'>
             <div>
 						<img id="mobimage"
-							src={`http://localhost:3001/uploads/${course.image}`}
+							src={`https://codingarenabackend-4g1r.onrender.com/uploads/${course.image}`}
 							style={{ width: "150px",height:"110px",border:"none",borderRadius:"10px" }}
 						/></div>
 						<div className='flex flex-col justify-between w-full pb-4'>

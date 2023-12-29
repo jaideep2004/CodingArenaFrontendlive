@@ -44,7 +44,7 @@ export function useCart() {
 
   const fetchCartItemCount = async () => {
     try {
-      const response = await axios.get("http://localhost:3001/cart/count");
+      const response = await axios.get("https://codingarenabackend-4g1r.onrender.com/cart/count");
       const cartItemCount = response.data.count;
       dispatch({ type: "SET_CART_ITEM_COUNT", payload: cartItemCount });
     } catch (error) {

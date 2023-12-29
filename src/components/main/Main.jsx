@@ -1,8 +1,6 @@
 import "./main.css";
 import { Link } from "react-router-dom";
-import { BiSolidUser } from "react-icons/bi";
-import { AiFillStar } from "react-icons/ai";
-import { ToastContainer, toast } from "react-toastify";
+
 import { useNavigate } from "react-router-dom";
 
 import "react-toastify/dist/ReactToastify.css";

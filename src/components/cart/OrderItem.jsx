@@ -8,7 +8,7 @@ export default function OrderItem({ course }) {
 					<div id="cartmobitem" className='flex w-full space-x-2 sm:space-x-4'>
 						<div>
 							<img
-								src={`http://localhost:3001/uploads/${course.image}`}
+								src={`https://codingarenabackend-4g1r.onrender.com/uploads/${course.image}`}
 								style={{
 									width: "150px",
 									height: "110px",

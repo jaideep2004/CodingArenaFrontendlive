@@ -18,7 +18,7 @@ export default function AdminCourseCard({ image, title, rating, cname,removeFrom
 				id='adminmobcard'
 				style={{ width: "300px", height: "450px",margin:"10px 20px" }}>
 				<div className='img-section' id='courseimg'>
-					<img src={`http://localhost:3001/uploads/${image}`} />
+					<img src={`https://codingarenabackend-4g1r.onrender.com/uploads/${image}`} />
 				</div>
 
 				<div className='content-section px-2'>
