@@ -160,9 +160,9 @@ button.button:hover {
 		position: absolute;
 		top: 120px;
 		left: 10px;
-		/* right: 10px; */
+		
 		display: block;
-		/* flex-direction: column; */
+		
 		box-shadow: 0px 5px 5px #f5ac82;
 		transition: 1s all ease;
 		z-index: 1;
@@ -220,8 +220,7 @@ button.button:hover {
 	}
 	.featured {
 		margin: 1px auto;
-		width: 400px;
-		height: 500px;
+		
 	}
 
 	.headerprofile {
